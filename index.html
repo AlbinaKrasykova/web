@@ -1,246 +1,166 @@
 <!DOCTYPE html>
-<html>
- 
-    <head>   
-        <!-- Basic favicon -->
-        <link rel="icon" href="favicon/bee.png" type="image/x-icon">
-        <link rel="shortcut icon" href="favicon/bee.png" type="image/x-icon">
-        
-        <!-- For modern browsers -->
-        <link rel="icon" type="image/png" sizes="16x16" href="bee.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon/bee.png">
-        
-        <title >albina krasykova</title>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    </head>
-    <body>
-       
-        <header>
-           
-            <div class="navbar-wrapper">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albina Krasykova</title>
+    <meta name="description" content="Product-focused creative technologist with AI/ML background.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar-wrapper">
             <nav class="navbar">
-                <div class="nav-left">
-                    <img src="img/bee.png" alt="logo" class="bee">
-                    <h1>albeena</h1>
-                </div>
+                <a href="index.html" class="site-name">Albina Krasykova</a>
                 <div class="nav-links">
-            
-                    <a href="/">about</a>
-
-                    <a href="#projects">projects</a>
-                    <a href="https://medium.com/@albinakrasykova">blog</a>
-                    <a href="https://www.linkedin.com/in/albinakrasykova/">connect</a>
-                    <a href="#art" >art</a>
-                    <a href="https://www.usms.org/people/RNAFC">swimming</a>
-
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="art.html">Art</a>
+                    <a href="https://medium.com/@albinakrasykova" target="_blank" rel="noopener noreferrer">Blog</a>
+                    <a href="https://www.linkedin.com/in/albinakrasykova/" target="_blank" rel="noopener noreferrer">Connect</a>
                 </div>
             </nav>
+        </div>
+    </header>
+
+    <main class="content">
+
+        <section class="hero" id="about">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Creative Technologist</p>
+                <h1 class="hero-title">Albina Krasykova</h1>
+                <p class="hero-description">
+                    Product-focused creative technologist with an AI/ML background.
+                    Interested in HealthTech, urban systems, accessible education, and biofabrication.
+                </p>
             </div>
-            
-        </header>
-        <main class="content">
+            <img src="img/head_shot.png" alt="Albina Krasykova" class="head_shot">
+        </section>
 
-            
-            <div class="intro">
-                
+        <section class="experience" id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <ol class="experience-list">
+                <li class="experience-item">
+                    <time class="experience-date">2025 – Present</time>
+                    <div class="experience-body">
+                        <h3>Clinical Product & Data, Oura</h3>
+                        <p>
+                            Collaborated with clinical teams in the Heart Failure Department to develop tools for clinical coordinators and physicians.
+                            Supported clinician interviews by documenting and synthesizing insights on workflow friction, contributing to workflow improvements,
+                            data quality processes, patient data analysis using Oura biometric data, and biomarker exploration.
+                            Transformed complex biomarker data into actionable insights and dashboards for clinicians, reducing data quality check time by 30%.
+                        </p>
+                    </div>
+                </li>
+                <li class="experience-item">
+                    <time class="experience-date">May – Nov 2025</time>
+                    <div class="experience-body">
+                        <h3>Product Developer, Break Through Tech — New York, NY</h3>
+                        <p>
+                            Led product development for Urban Ear Architecture and HSense. Redesigned a declining engagement program by conducting 50+ in-depth user interviews
+                            and analyzing behavioral data to identify pain points, at-risk segments, and barriers to ongoing participation.
+                            Defined KPIs and built a data-driven roadmap; launched personalized outreach campaigns and a scoring system to track engagement and drive retention.
+                            Presented insights to leadership, driving a 40% increase in participant re-engagement.
+                        </p>
+                    </div>
+                </li>
+                <li class="experience-item">
+                    <time class="experience-date">Sep – Nov 2024</time>
+                    <div class="experience-body">
+                        <h3>SWE Intern, Cake.AI</h3>
+                        <p>
+                            Collaborated with Product, Engineering, and Solutions teams to design and deploy an AutoML pipeline,
+                            accelerating AI model deployment by 40%. Integrated Ray, MLflow, and Feast to optimize model development,
+                            experimentation, and A/B testing. Built an ML dashboard for model monitoring and stakeholder adoption.
+                        </p>
+                    </div>
+                </li>
+                <li class="experience-item">
+                    <time class="experience-date">Jun – Aug 2024</time>
+                    <div class="experience-body">
+                        <h3>Data Research Intern, MTA</h3>
+                        <p>
+                            Designed and launched a full-stack data analytics tool to automate data processing for MTA analysts,
+                            reducing reporting time from days to minutes. Worked with cross-functional teams to refine requirements
+                            and prioritize high-impact automation features.
+                        </p>
+                    </div>
+                </li>
+                <li class="experience-item">
+                    <time class="experience-date">Jun – Sep 2023</time>
+                    <div class="experience-body">
+                        <h3>AI Research, Cornell University HCI Lab</h3>
+                        <p>
+                            Developed a real-time scoring system to evaluate image processing pipelines across diverse conditions.
+                            Processed 11K+ images to fine-tune detection models, collaborating with researchers and engineers
+                            to iterate on improvements.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="section-title">Recent Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="img/biofab.gif" alt="Biofabrication tool">
+                    <h3>Biofabrication Tool</h3>
+                    <p>
+                        A biofabrication research tool helping researchers discover mycelium applications
+                        in an easy, fun, and interactive way.
+                    </p>
+                </article>
+                <article class="project-card">
+                    <a href="https://www.canva.com/design/DAGgzv3FitM/lrSPphCcCqO95BSUiRO8jQ/edit"
+                       target="_blank" rel="noopener noreferrer">
+                        <img src="img/factor.gif" alt="Mental Health & AI analysis">
+                        <h3>Mental Health & AI Analysis</h3>
+                        <p>
+                            Stage A startup analysis for Primary Ventures through the Factor Fellowship
+                            for high-achieving early career professionals.
+                        </p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://www.canva.com/design/DAGcknDeA3U/e_hWBF-h30sWfnp30fLHVQ/edit?utm_content=DAGcknDeA3U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                       target="_blank" rel="noopener noreferrer">
+                        <img src="img/esg.gif" alt="ESG for Good">
+                        <h3>ESG for Good</h3>
+                        <p>
+                            An interactive map combined with an agent for efficient analysis, assessment,
+                            feedback, and execution — helping founders and investors focus on what matters.
+                        </p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://www.canva.com/design/DAGeXdMbcKM/4dwXG-7sm0Mq5WutrqhTyA/edit?utm_content=DAGeXdMbcKM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                       target="_blank" rel="noopener noreferrer">
+                        <img src="img/spotify.gif" alt="Spotify Recommendation Systems">
+                        <h3>Spotify Recommendation Systems</h3>
+                        <p>
+                            Hands-on curriculum with real-world industry cases, helping students apply AI concepts
+                            in a practical setting with a focus on product management and business impact.
+                        </p>
+                    </a>
+                </article>
             </div>
-            
-            <div class="profile-section">
-                <div class="profile-text">
-                    <h2 class="section-title font-semibold ">Welcome! I am Albina</h2>
-                   
-                   <h4>Currently a graduate student at Cornell Tech, studying Information Systems with a Health Tech concentration. I am passionate about Product and human-centered AI/ML systems.</h4>
-                </div>
-                <img src="img/head_shot.png" alt="Albina's photo" class="head_shot">
-            </div>
+        </section>
 
-            <!-- Before Work Experience -->
-            <div class="section-divider-large"></div>
-            <section class="experience">
-                <h2 class="section-title">Work Experience</h2>
-                
-                <ol class="items-center sm:flex px-10">
-                    <!-- Experience 1 -->
-                    <li class="relative mb-6 sm:mb-0">
-                        <div class="flex items-center">
-                            <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
-                                <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-                                </svg>
-                            </div>
-                            <div class="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
-                        </div>
-                        <div class="mt-3 sm:pe-8">
-                            <h3 class="text-lg font-semibold text-gray-900">swe intern, Cake.AI </h3>
-                            <time class="block mb-2 text-sm font-normal leading-none text-gray-400">September - November 2024</time>
-                            <p class="text-base font-normal text-gray-500">Collaborated  with Product, Engineering, and Solutions teams to design and deploy an AutoML pipeline, accelerating AI model deployment by 40%.
-                                Integrated Ray, MLflow, and Feast, optimizing model development, experimentation, and A/B testing.
-                                Developed an intuitive ML dashboard, enhancing AI model monitoring and driving stakeholder adoption.</p>
-                        </div>
-                    </li>
+        <section class="swimming" id="swimming">
+            <h2 class="section-title">Swimming</h2>
+            <a href="https://www.usms.org/people/RNAFC" class="swimming-link" target="_blank" rel="noopener noreferrer">
+                US Masters Swimming profile
+            </a>
+        </section>
 
-                    <!-- Experience 2 -->
-                    <li class="relative mb-6 sm:mb-0">
-                        <div class="flex items-center">
-                            <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
-                                <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-                                </svg>
-                            </div>
-                            <div class="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
-                        </div>
-                        <div class="mt-3 sm:pe-8">
-                            <h3 class="text-lg font-semibold text-gray-900">Data reserach intern, MTA</h3>
-                            <time class="block mb-2 text-sm font-normal leading-none text-gray-400">June - August 2024</time>
-                            <p class="text-base font-normal text-gray-500">Designed and launched a full-stack data analytics tool to automate data processing for MTA analysts, reducing reporting time from days to minutes.
-                                Worked closely with cross-functional teams to refine user requirements and prioritize features for high-impact data automation.</p>
-                        </div>
-                    </li>
+    </main>
 
-                    <!-- Experience 3 -->
-                    <li class="relative mb-6 sm:mb-0">
-                        <div class="flex items-center">
-                            <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
-                                <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-                                </svg>
-                            </div>
-                            <div class="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
-                        </div>
-                        <div class="mt-3 sm:pe-8">
-                            <h3 class="text-lg font-semibold text-gray-900"> AI Research at Cornell University, HCI</h3>
-                            <time class="block mb-2 text-sm font-normal leading-none text-gray-400">June - September 2023</time>
-                            <p class="text-base font-normal text-gray-500">Developed a real-time scoring system to evaluate image processing pipelines across diverse conditions, enhancing model robustness.Processed 11K+ images to fine-tune detection models, 
-                                collaborating with researchers and engineers to iterate on improvements.</p>
-                        </div>
-                    </li>
-                </ol>
-            </section>
+    <footer>
+        <p>© 2026 Albina Krasykova</p>
+    </footer>
 
-            
-
-            <!-- Before Projects -->
-            <div class="section-divider-large"></div>
-            <section class="projects" id="projects">
-                <h2 class="section-title">Recent Projects</h2>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <img src="img/biofab.gif" alt="">
-                        <h3>Biofabrication tool</h3>
-                        <p>BioFab tool 🍄
-
-                            I  developed a biofabrication research tool to help researchers discover mycelium applications in an easy, fun, and interactive way.
-                            
-                         
-                            </p>
-                    </div>
-                    <div class="project-card">
-                        <a href="https://www.canva.com/design/DAGgzv3FitM/lrSPphCcCqO95BSUiRO8jQ/edit" 
-                           target="_blank" 
-                           rel="noopener noreferrer">
-                            <img src="img/factor.gif" alt="">
-                            <h3>Mental Health & AI analysis for Primary Ventures</h3> 
-                            <p> Mental Healh Tech, Stage A start up analysis for Primary Ventures, Factor Fellowship for high achieving early career professionals.</p>
-                        </a>
-                    </div>
-
-                    <div class="project-card">
-                        <a href="https://www.canva.com/design/DAGcknDeA3U/e_hWBF-h30sWfnp30fLHVQ/edit?utm_content=DAGcknDeA3U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
-                           target="_blank" 
-                           rel="noopener noreferrer">
-                            <img src="img/esg.gif" alt="ESG for Good">
-                            <h3>ESG for good</h3> 
-                            <p>𝗔𝗻 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝘃𝗲 𝗺𝗮𝗽 𝗰𝗼𝗺𝗯𝗶𝗻𝗲𝗱 𝘄𝗶𝘁𝗵 𝗮𝗻 𝗮𝗴𝗲𝗻𝘁 𝗳𝗼𝗿 𝗮𝗻 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁 𝗮𝗻𝗱 𝗲𝗮𝘀𝗶𝗲𝗿 𝗮𝗻𝗮𝗹𝘆𝘀𝗶𝘀, 𝗮𝘀𝘀𝗲𝘀𝘀𝗺𝗲𝗻𝘁, 𝗳𝗲𝗲𝗱𝗯𝗮𝗰𝗸 𝗮𝗻𝗱 𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻. 𝗪𝗲 𝗵𝗲𝗹𝗽 𝗳𝗼𝘂𝗻𝗱𝗲𝗿𝘀 𝗮𝗻𝗱 𝗶𝗻𝘃𝗲𝘀𝘁𝗼𝗿𝘀 𝘁𝗼 𝗳𝗼𝗰𝘂𝘀 𝗼𝗻 𝘄𝗵𝗮𝘁 𝗺𝗮𝘁𝘁𝗲𝗿𝘀.</p>
-                        </a>
-                    </div>
-                    <div class="project-card">
-                        <a href="https://www.canva.com/design/DAGeXdMbcKM/4dwXG-7sm0Mq5WutrqhTyA/edit?utm_content=DAGeXdMbcKM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
-                           target="_blank" 
-                           rel="noopener noreferrer">
-                            <img src="img/spotify.gif" alt="Spotify Recommenation systems session">
-                            <h3>Spotify Recommenation systems session</h3>
-                            <p>Developed a hands-on curriculum with real-world ndustry cases, helping students apply AI concepts in a practical setting while focusing on product management and business impact.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Before Art -->
-            <div class="section-divider-large"></div>
-            <section class="art" id="art">
-                <h2 class="section-title">Art</h2>
-
-
-
-
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="grid gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/iris.jpeg" alt="">
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/tulip.jpeg" alt="">
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/protea.jpeg" alt="">
-                        </div>
-                    </div>
-                    <div class="grid gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/peonies.jpeg" alt="">
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/familyart.jpeg" alt="">
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/mooncat.jpeg" alt="">
-                        </div>
-                    </div>
-                    <div class="grid gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/friendsketch.jpeg" alt="">
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/mathart.jpeg" alt="">
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/catconfetti.jpeg" alt="">
-                        </div>
-                    </div>
-                    <div class="grid gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/anna.jpeg" alt="">
-                        </div>
-                       
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/redpeonies.jpeg" alt="">
-                        </div>
-                    
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/proteas.jpeg" alt="">
-                         
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="img/IMG_7684.mov" alt="3d art">
-                         
-                        </div>
-                    </div>
-                </div>
-                
-
-            </section>
-
-                
-            <section class="swimming" id="swimming">
-                <h2 class="section-title">Swimming</h2>
-            </section>
-
-        </main>
-        
-    </body>
+</body>
 </html>
